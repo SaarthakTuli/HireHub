@@ -15,3 +15,9 @@ npx create-react-native-app -t with-router
 - [Request for Comments](https://github.com/expo/router/discussions/1)
 
 ### Design: https://dribbble.com/shots/11867493-Job-finder-Mobile-UI-Job-list
+
+.env file
+
+```code
+RAPID_API_KEY = XXXXXXXXXX
+```
