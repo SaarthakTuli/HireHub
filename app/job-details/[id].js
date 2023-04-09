@@ -6,6 +6,7 @@ import {
   ScrollView,
   ActivityIndicator,
   RefreshControl,
+  Share,
 } from "react-native";
 import { Stack, useRouter, useSearchParams } from "expo-router";
 
@@ -38,6 +39,17 @@ const JobDetails = () => {
     refetch();
     handleCardPress(false);
   }, []);
+
+  const shareData = async () => {
+    try {
+      await Share.share({
+        message:
+          data[0]?.job_google_link ?? "https://careers.google.com/jobs/results",
+      });
+    } catch (error) {
+      alert(error.message);
+    }
+  };
 
   const displayTabContent = () => {
     switch (activeTab) {
@@ -80,7 +92,11 @@ const JobDetails = () => {
             />
           ),
           headerRight: () => (
-            <ScreenHeaderBtn iconUrl={icons.share} dimension="60%" />
+            <ScreenHeaderBtn
+              iconUrl={icons.share}
+              dimension="60%"
+              handlePress={shareData}
+            />
           ),
           headerTitle: "",
         }}
