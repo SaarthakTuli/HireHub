@@ -13,3 +13,5 @@ npx create-react-native-app -t with-router
 - [Expo Router: Docs](https://expo.github.io/router)
 - [Expo Router: Repo](https://github.com/expo/router)
 - [Request for Comments](https://github.com/expo/router/discussions/1)
+
+### Design: https://dribbble.com/shots/11867493-Job-finder-Mobile-UI-Job-list
