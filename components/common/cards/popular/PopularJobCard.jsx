@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { View, Text, Image, TouchableOpacity } from "react-native";
 
 import styles from "./popularjobcard.style";
@@ -7,6 +7,11 @@ import { checkImageURL } from "../../../../utils";
 
 const PopularJobCard = ({ item, selectedJob, handleCardPress }) => {
   console.log("Logos are:", item.employer_logo);
+
+  const [selectedJob, setSelectedJob] = useState();
+
+  const handleCardPress = (item) => {};
+
   return (
     <TouchableOpacity
       style={styles.container(selectedJob, item)}
