@@ -1,6 +1,6 @@
 # HireHub - Job Hiring Helper
 
-This is a **Cross-Platform Frontend App** build using <a href="https://reactnative.dev/docs/getting-started" target="_blank">React Native <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" alt="react-native" width="40px" height="40px" /></a> and <a href="https://expo.dev/" target="_blank">Expo <img src="https://static.expo.dev/static/brand/square-512x512.png" alt="expo" width="40px" height="40px" /></a>
+This is a **Cross-Platform Frontend UI** build using <a href="https://reactnative.dev/docs/getting-started" target="_blank">React Native <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" alt="react-native" width="40px" height="40px" /></a> and <a href="https://expo.dev/" target="_blank">Expo <img src="https://static.expo.dev/static/brand/square-512x512.png" alt="expo" width="40px" height="40px" /></a> and **API Calls from <a href="https://docs.rapidapi.com/" target="_blank">RapidAPI <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/rapidapi_logo_icon_168879.png" alt="rapid api" width="40px" height="40px" /></a>**
 
 ## Deployment
 
